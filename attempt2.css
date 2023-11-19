@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+header::before{
+    background-image: url("travel.webp");
+    background-size: cover;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navbar1 {    /* in case of list flex property works only when the class of the unordered list is mentioned*/
+    display: flex;
+    padding: 10px 10px;
+    
+}
+ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* border: 2px solid red; */
+    height: 300px;
+
+}
+p{
+    text-align: center;
+}
